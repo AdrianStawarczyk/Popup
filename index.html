@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie_2</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+<div class="container">
+  <div class="popup1">
+    <div class="header">
+      <h1>Witaj!</h1>
+      <p>wypełnij formularz i zgarnij <span>kupon rabatowy</span> do wykorzystania przy najbliższych zakupach.
+      </p>
+    </div>
+    <div class="input">
+      <form id="form" method="GET" action="page.html">
+          <input type="email"  name="email" placeholder="email" id="email">
+          <input type="text"  name="name"  placeholder="imię" id="name">
+      </form>
+    </div>
+    <div class="aproved">
+      <div class="sign_aproved">
+        <i class="far fa-check-square"></i>
+      </div>
+      <div class="text_aproved">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.."</p>
+      </div>
+    </div>
+    <div class="button">
+      <input type="submit" value="wyślij" onclick="myFun()">
+    </div>
+  </div>
+</div>
+  <script src="main.js"></script>
+</body>
+</html>
